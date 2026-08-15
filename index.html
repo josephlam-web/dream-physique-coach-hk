@@ -1,1 +1,173 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Professional Template</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo" id="nav-logo">Studio</a>
+      <ul class="nav-links">
+        <li><a href="#events">Events</a></li>
+        <li><a href="#packages">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 id="hero-headline">Loading headline...</h1>
+      <p id="hero-subheadline">Loading subheadline...</p>
+      <a href="#packages" id="hero-cta" class="btn btn-primary">Book Now</a>
+    </div>
+  </header>
+
+  <!-- Upcoming Events -->
+  <section class="section" id="events">
+    <div class="container">
+      <h2 class="section-title">Upcoming Workshops & Events</h2>
+      <div class="grid cards-grid" id="events-container">
+        <p class="loading-text">Loading events...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages & Pricing -->
+  <section class="section bg-light" id="packages">
+    <div class="container">
+      <h2 class="section-title">Services & Pricing</h2>
+      <div class="grid pricing-grid" id="packages-container">
+        <p class="loading-text">Loading packages...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Portfolio & Gallery</h2>
+      <div class="grid gallery-grid" id="gallery-container">
+        <p class="loading-text">Loading gallery...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendar / Schedule -->
+  <section class="section bg-light" id="schedule">
+    <div class="container">
+      <h2 class="section-title">Weekly Availability</h2>
+      <div class="schedule-table-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Time Slot</th>
+              <th>Activity</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="schedule-container">
+            <tr><td colspan="4" class="loading-text">Loading schedule...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">Client Feedback</h2>
+      <div class="grid testimonials-grid" id="testimonials-container">
+        <p class="loading-text">Loading testimonials...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="section bg-light" id="faq">
+    <div class="container container-narrow">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="accordion" id="faq-container">
+        <p class="loading-text">Loading FAQs...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" id="whatsapp-btn" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" class="whatsapp-icon">
+      <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.135-2.135c2.372 1.3 5.060 1.987 7.865 1.987 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.387c-2.482 0-4.908-0.668-7.025-1.932l-0.503-0.3-5.218 1.368 1.392-5.183-0.332-0.528c-1.385-2.203-2.115-4.757-2.115-7.312 0-7.61 6.19-13.8 13.8-13.8s13.8 6.19 13.8 13.8-6.19 13.8-13.8 13.8zM22.387 19.382c-0.35-0.175-2.072-1.022-2.393-1.138s-0.555-0.175-0.788 0.175c-0.233 0.35-0.905 1.138-1.108 1.372s-0.408 0.263-0.758 0.088c-0.35-0.175-1.478-0.545-2.815-1.738-1.040-0.927-1.742-2.072-1.947-2.422s-0.022-0.538 0.153-0.712c0.157-0.157 0.35-0.408 0.525-0.612s0.233-0.35 0.35-0.583c0.117-0.233 0.058-0.438-0.028-0.612s-0.788-1.9-1.080-2.6c-0.283-0.682-0.572-0.59-0.788-0.602l-0.672-0.012c-0.233 0-0.612 0.088-0.933 0.438s-1.225 1.2-1.225 2.925c0 1.725 1.255 3.39 1.43 3.623s2.472 3.775 5.988 5.293c0.837 0.362 1.49 0.578 2.002 0.74 0.84 0.267 1.603 0.23 2.208 0.14 0.675-0.102 2.072-0.847 2.363-1.663s0.292-1.517 0.205-1.663c-0.088-0.147-0.322-0.233-0.672-0.408z"></path>
+    </svg>
+  </a>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay" id="booking-modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+
+      <div class="modal-header">
+        <h3>Book a Session</h3>
+        <p>Fill out the form below to reserve your spot.</p>
+      </div>
+
+      <form id="booking-form" class="booking-form">
+        <div class="form-group">
+          <label for="booking-name">Full Name *</label>
+          <input type="text" id="booking-name" name="name" placeholder="Jane Doe" required>
+        </div>
+
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="booking-email">Email Address *</label>
+            <input type="email" id="booking-email" name="email" placeholder="jane@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="booking-phone">Phone / WhatsApp *</label>
+            <input type="tel" id="booking-phone" name="phone" placeholder="+1 234 567 890" required>
+          </div>
+        </div>
+
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="booking-service">Selected Service *</label>
+            <select id="booking-service" name="service" required>
+              <option value="" disabled selected>Select a package or event</option>
+              <!-- Options dynamically populated by JS -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="booking-date">Preferred Date & Time *</label>
+            <input type="text" id="booking-date" name="preferred_date" placeholder="e.g., Oct 20 at 3:00 PM" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="booking-notes">Special Requests / Notes</label>
+          <textarea id="booking-notes" name="notes" rows="3" placeholder="Any goals, injuries, or questions?"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-block" id="submit-booking-btn">
+            <span>Confirm Booking</span>
+          </button>
+        </div>
+        <p class="form-status" id="form-status-msg"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
